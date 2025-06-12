@@ -3,21 +3,6 @@
 
 This project automates the login functionality testing of the OrangeHRM demo portal using Python, Selenium, Pytest, and the Page Object Model (POM) design pattern. It implements Data-Driven Testing (DDT) by reading multiple login test cases from an Excel sheet and writing the results back to the same file.
 
-
----
-
-📁 Project Structure
-
-OrangeHRM_Login_Automation/
-├── Page/                    # Page Object Models (LoginPage)
-├── Tests/                   # Test scripts using Pytest
-├── Test-data/              # Excel file with login data
-├── conftest.py             # Pytest fixture for WebDriver setup
-├── README.md               # Project documentation
-
-
----
-
 ✅ Features
 
 Automates login for multiple user credentials.
